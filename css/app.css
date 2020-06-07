@@ -9,7 +9,7 @@
 #header{
     background-color: var(--bg-color);
     border:;
-    height:90vh;
+    height:80vh;
     padding-top:20vh;
     border-left:0;
     border-top:0;
@@ -57,6 +57,9 @@
     transition: all ease .7s;
 }
 .blog-post a:hover{opacity:.8}
+.blog-post img{
+  padding-bottom: 1em;
+}
 
 .tag-cloud .tag-cloud-individual-tag {
     display: inline-block;
